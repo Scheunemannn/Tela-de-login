@@ -1,0 +1,60 @@
+body {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/fundo.png);
+    
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.containerPrincipal {
+    width: 400px;
+    height: 360px;
+    border: 1px solid white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerPrincipal input {
+    color: white;
+}
+
+.botao {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 80%;
+    border-radius: 0.5rem;
+    padding-left: 7px;
+    font-size:13px;
+
+}
+
+.botao:hover {
+    border: 1px solid white;
+}
+
+#entrar {
+    width:80%;
+    height:40px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 13px;
+
+}
+h1 {color: white}
+
+p {
+    color: white;
+}
