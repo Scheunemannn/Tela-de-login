@@ -57,6 +57,7 @@ textarea:focus, input:focus {
     border-radius: 1rem;
     border: none;
     font-size: 13px;
+    cursor: pointer;
 
 }
 h1 {color: white}
